@@ -1,0 +1,22 @@
+.wrapper{
+    background-image: url("/src/assets/2324599_orig.jpg");
+}
+div.header{
+    text-align:center;
+}
+div.search{
+    position: absolute;
+    left:411px;
+}
+input{
+    max-width:449px;
+    position:absolute;
+    left:390px;
+}
+section.movies{
+    margin:40px;
+}
+.movilist img{
+    max-width:200px;
+    padding-right:50px;
+}

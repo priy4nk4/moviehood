@@ -1,0 +1,34 @@
+<div class="whole" style="background:url('/assets/leaves-grey-background.jpg')">
+<div class="container">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="{{img_url+records.posters[0].file_path}}" alt="loading..">
+            </div>
+            <div class="col-xs-8 brief">
+                <h3> {{Datas.original_title}}</h3>
+                <p>Genres: {{Datas.production_countries[0].name}} </p>
+                <p>Popularity: {{Datas.popularity}} </p>
+                <p>Ralease Date: {{Datas.release_date}} </p>
+                <div class="trailer">
+                    <button class="btn"><a href="{{vdo_url+videos.results[0].key}}" target="_blank">trailer</a></button>
+                </div>
+            </div>
+        </div>
+        <section class="summary">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8">
+                <div class="Storyline">
+                    <div class="header">
+                        <h4><b>Storyline</b></h4>
+                    </div>
+                    <p>
+                        {{Datas.overview}}
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-2"></div>
+        </section>
+    </div>
+</div>
+</div>
